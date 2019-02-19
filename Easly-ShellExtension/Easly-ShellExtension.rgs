@@ -1,3 +1,13 @@
 HKCR
 {
+	NoRemove .easly = s 'EaslyFile'
+	{
+	}
+
+	NoRemove EaslyFile = s 'Easly File'
+	{
+		NoRemove DefaultIcon = s '%MODULE%,-100'
+		{
+		}
+	}
 }
